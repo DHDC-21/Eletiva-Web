@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Exemplo 17 - Formulario </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <h1> Formulario do Aluno </h1>
+            <fieldset>  <!--group-->
+                <legend> Dados Pessoais </legend>   <!--rotulo do grupo-->
+                <label> Nome: </label>
+                <input type="text" size="30">
+                <label> Senha provisoria: </label>
+                <input type="password" size="5">
+                <br>
+                <label> Sexo: </label>
+                <input type="radio" name="sexo"> Feminino
+                <input type="radio" name="sexo"> Masculino <br>
+                <input type="checkbox"> Aluno Veterano <br>
+                <p>
+                    <label> Escolha seu Curso: </label>
+                    <select name="curso">
+                        <optgroup label="Exatas">
+                            <option> ADS </option>
+                            <option> Mecatrônica </option>
+                        </optgroup>
+                        <optgroup label="Humanas">
+                            <option> Gestão Empresarial </option>
+                            <option> Gestão de Marketing Digital</option>
+                        </optgroup>
+                    </select>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend> Dados adicionais </legend>
+                <label> RA: </label>
+                <input type="text"> <br>
+                <label> Data inicio do curso: </label>
+                <input type="date"> <br> <!--date,datetime-local,week-->
+                <label> Qual é a sua cor favorita </label>
+                <input type="color"> <br>
+                <label> Escolha o mês das suas ferias</label>
+                <input type="month"> <br>
+                <label> Informe o quanto você esta feliz: </label>
+                <input type="range"> <br>
+            </fieldset>
+            <fieldset>
+                <input type="reset" value="Limpar">
+                <input type="submit" value="Gravar">
+            </fieldset>
+        </form>
+    </body>
+</html>
