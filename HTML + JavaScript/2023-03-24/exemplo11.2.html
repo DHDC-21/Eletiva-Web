@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 11 v2 - javascript</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        // Resolução do professor usando true para invadir o switch e colocar condições no case
+        var idade = parseInt(prompt("Entre com a idade do nadador:"));
+        var categoria;
+        switch (true) {
+            case (idade<=7):
+                alert("Categoria Infantil");
+                document.write("Categoria Infantil");
+                break;
+            case (idade<=10):
+                alert("Categoria Juvenil A");
+                document.write("Categoria Juvenil A");
+                break;
+            case (idade<=17):
+                alert("Categoria Juvenil B");
+                document.write("Categoria Juvenil B");
+                break;
+            case (idade>=18):
+                alert("Categoria Adulto");
+                document.write("Categoria Adulto");
+                break;
+            }
+    </script>
+
+</body>
+</html>

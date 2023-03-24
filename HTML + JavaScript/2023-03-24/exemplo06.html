@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 06 - javascript</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var nome = prompt("Qual é o seu nome?");
+        var anoAtual = parseInt(prompt("Digite o ano atual"));  //parseInt serve para converter a entrada para inteiro
+        var anoNasc = parseInt(prompt("Digite seu ano de nascimento"));
+        var idade = anoAtual-anoNasc;   //o sinal de menos não desconcatena o prompt
+        document.write(nome+"! que nome de corno!!/n");
+        document.write("Você tem aproximadamente  "+idade+" anos");
+        </script>
+</body>
+</html>

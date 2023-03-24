@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 07 - javascript</title>
+</head>
+<body>
+    <script type="text/javascript">
+
+        var nome = prompt("Digite o seu nome:");
+        var resp=confirm("Você poderia nos responder uma pesquisa?");
+        if(resp==true){
+            resp=confirm("Podemos considerar que você gosta de pudim, OK?");
+            if(resp==false){
+                alert("Mentira eu também não gosto de pudim!");
+            } else{
+                alert("Ta, ok!");
+            }
+        } else{
+            alert("Que pena, obrigado mesmo assim...");
+        }
+        
+
+    </script>
+</body>
+</html>

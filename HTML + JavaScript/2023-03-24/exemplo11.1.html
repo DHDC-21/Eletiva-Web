@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 11 v1 - javascript</title>
+</head>
+<body>
+    
+    <script type="text/javascript">
+        // Exemplo 11 usando de verificadores externos para entrar no switch
+        var idade = parseInt(prompt("Entre com a idade do nadador:"));
+        var categoria;
+        if(idade<8)categoria=1;
+        if(idade>=8 && idade<=10)categoria=2;
+        if(idade>=11 && idade<=17)categoria=3;
+        if(idade>=18)categoria=4;
+        switch (categoria) {
+            case 1:
+                alert("Categoria Infantil");
+                document.write("Categoria Infantil");
+                break;
+            case 2:
+                alert("Categoria Juvenil A");
+                document.write("Categoria Juvenil A");
+                break;
+            case 3:
+                alert("Categoria Juvenil B");
+                document.write("Categoria Juvenil B");
+                break;
+            case 4:
+                alert("Categoria Adulto");
+                document.write("Categoria Adulto");
+                break;
+            }
+    </script>
+
+</body>
+</html>

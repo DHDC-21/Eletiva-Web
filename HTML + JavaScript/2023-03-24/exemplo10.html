@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 10 - javascript</title>
+</head>
+<body>
+
+    <script>
+        var opcao = parseInt(prompt("Escolha uma opção:\n"+
+                                    "1 - Abrir        \n"+
+                                    "2 - Consultar    \n"+
+                                    "3 - Sair         \n"));
+        switch(opcao){
+            case 1:
+                document.write("Você escolheu a opção 1");
+                break;
+            case 2:
+                document.write("Você escolheu a opção 2");
+                break;
+            case 3:
+                document.write("Você escolheu a opção 3");
+                break;
+            default:
+                document.write("Opção invalida!");
+                break;
+        }
+    </script>
+
+</body>
+</html>
