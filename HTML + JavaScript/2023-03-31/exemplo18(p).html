@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 18 - Pré e pós incremento</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var a,b;
+        var c=a=b=50;
+        a = ++a + b; //a = 51 + 50 = 101
+        /*
+            quanto valem a, b, c no final do processamento
+            a=101, b=50, c=50
+        */
+       alert("a="+a+"\nb="+b+"\nc="+c);
+       document.while("a="+a);
+       /*
+            Se o exercicio fosse:
+
+            a=a+++b;
+            
+            o compilador ira ler da esquerda para direita e fazer um
+            pos encremento no a e somar com b, ou seja:
+
+            a = a++ + b;
+
+            então nesse caso, a ira somar com b e depois a seria incrementado
+            porem como a variavel ja recebeu o valor de a + b o a++ será descartado
+            e não será acrescentado.
+       */
+    </script>
+</body>
+</html>
