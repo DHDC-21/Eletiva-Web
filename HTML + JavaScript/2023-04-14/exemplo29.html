@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exemplo 29 - Desafio </title>
+</head>
+<body>
+    <script type="text/javascript">
+        function comparar(x,y){
+            if (x == y) {
+                document.write(x + " é igual a " + y);
+            } else if(x > y){
+                document.write("O maior = "+ x);
+            } else {
+                document.write("O maior = " + y);
+            }
+            /*
+                operador ternario
+                sintaxe: "<comparação> ? <operação verdadeira> : <operação falsa> ;"
+            
+            */
+
+        }
+        var a = parseInt(prompt("Digite um valor"));
+        var b = parseInt(prompt("Agora digite outro valor"));
+        comparar(a,b);
+    </script>
+</body>
+</html>
