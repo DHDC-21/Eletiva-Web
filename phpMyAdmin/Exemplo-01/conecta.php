@@ -20,6 +20,12 @@
      *  usuario varchar 10
      *  senha   int     5
      * 
-     * 3º Inserir dois usuários
+     * 3º Inserir dois usuários:
+     *  teste 123
+     *  admin 321
+     * 
+     * 4º Cirar o arquivo conecta.php e salvar na pasta do projeto
+     * 
+     * 5º Criar o arquivo _index.html_
      * */
 ?>
